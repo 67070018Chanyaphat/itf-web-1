@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+heading{
+    display: flex;
+    background-color: black;
+    height: 5vh;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 5vw; padding-right: 5vw;
+    text-align: center;
+}
+.nav-bar{
+    display: grid;
+    position: relative;
+    grid-template-columns: 0fr 0fr;
+    column-gap: 5vw;
+    justify-content: end;
+    text-align: center;
+    position: relative;
+    width: 20vw;
+}
+.nav-items{
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.logo{
+    position: relative;
+    color: white;
+    font-size: 4vh;
+    margin
+}
