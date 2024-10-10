@@ -1,0 +1,188 @@
+/******font******/
+@font-face {
+    font-family: Poppin-Reg;
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppin-SemiBold;
+    src: url(Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: K2D-Reg;
+    src: url(K2D-Regular.ttf);
+}
+/******setting default*******/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    position: relative;
+    height: 5rem;
+    background-color: #26B66A;
+    color: aliceblue;
+    font-family: Poppin-SemiBold;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw; padding-right: 5vw;
+}
+.nav-bar{
+    display: grid;
+    position: relative; height: 5rem;
+    grid-template-columns: 0fr 0fr;
+    column-gap: 2rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: #F0FFF7;
+    justify-content: space-between; align-items: center;
+}
+.nav-items:hover{
+    background-color: white;
+    color: #26B66A;
+    padding-left:1rem;padding-right: 1rem;
+}
+.Logo{
+    display: flex;
+    position: relative;
+    height: 3rem; width: 5rem; margin-right: 1rem;
+    background-color: aliceblue;
+}
+.Logo-items{
+    display: flex;
+    position: relative;
+    background-size: cover;
+    height:100%;
+}
+.homepage{
+    display: flex; position: relative;
+    height: 100vh;
+    background-color: #F0FFF7;
+    background-image: url(WIN_20241009_12_47_12_Pro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.homepage-items{
+    display: grid; position: relative;
+    grid-template-rows: 0fr 0fr 0fr;
+    row-gap: 2rem;
+    height: 100vh;
+    justify-content: center; align-items: center;
+    justify-items: center; align-content: center;
+    animation-name: li;
+}
+.homepage-font{
+    position: relative;
+    font-family: Poppin-SemiBold; font-size: 5rem;
+    color: #F0FFF7;
+    animation: lightning 5s infinite;
+}
+#hp-1{
+    font-size: 10rem;
+}
+.hp-button{
+    font-family: K2D-Reg; font-size: 1rem; background-color: #26B66A; color: #F0FFF7;
+    padding: 1rem; border-radius: 2rem; border: solid 5px #f6f1a0;
+}
+.hp-button:hover{
+    box-shadow: 0px 0px 5px 5px #26B66A;
+    background-color: #f6f1a0;
+    color: black; border: none;
+}
+@keyframes lightning {
+    0%{
+        color: #26B66A;
+        text-shadow: 0px 0px 10px #F0FFF7;
+    }
+    25%{
+        color: #F0FFF7;
+        text-shadow: 0px 0px 10px #26B66A;
+    }
+    50%{
+        color: #26B66A;
+        text-shadow: 0px 0px 10px #F0FFF7;
+    }
+    100%{
+        color: #F0FFF7;
+        text-shadow: 0px 0px 10px #26B66A;
+    }
+    
+}
+.friends{
+    display: grid; grid-template-rows: 0fr 1fr;
+    justify-content: center; justify-items: center;
+    background-color: #F0FFF7;
+}
+.fr-header{
+    position: relative;
+    font-size: 5rem; margin-top: 5rem; margin-bottom: 1rem;
+    font-family: Poppin-SemiBold; color: #26B66A;
+}
+.fr-list{
+    display: grid; grid-template-columns: 0fr 0fr 0fr; column-gap: 5rem; row-gap: 2rem;
+    position: relative;
+    height: 100vh;
+    justify-content: center; padding: 2rem; align-items: center;
+}
+.friend-items{
+    display: grid; grid-template-rows: 0fr 0fr; position: relative;
+    row-gap: 1rem;
+    width: 20rem; height: 22rem;
+    background-color: #26B66A;
+    justify-content: center; align-content: center;
+    border-radius: 1rem;
+    color: #F0FFF7;
+}
+.friend-items:hover{
+    background-color: #f6f1a0;
+    color: black;
+}
+
+.fr-img{
+    display: flex; position: relative;
+    width: 12rem; height: 15rem; background-color: #F0FFF7;
+    border-radius: 0.5rem;
+    background-size: cover;
+}
+.fr-img img{
+    display: flex; position: relative; height: 100%; width: 100%;
+} 
+.fr-items{
+    font-family: K2D-Reg;
+}
+
+
+.footer{
+    display: flex; position: relative;
+    height: 12rem;
+    background-color: #26B66A;
+    align-items: center; justify-content: space-between; align-content: center;
+    padding-left: 5rem; padding-right: 5rem;
+}
+.ft-img{
+    position: relative; display: flex; height: 8rem; width: 8rem;
+    background-size: cover; 
+}
+.ft-img-items{
+    display:flex; position: relative; height: 100%; margin-top: -1rem;
+}
+.ft-items{
+    display: grid; grid-template-rows: 0fr 0fr 0fr;
+    font-family: K2D-Reg;
+    color: #F0FFF7;
+}
+.ft-id{
+    font-size: 2rem; color: #f6f1a0;
+}
+.ft-name{
+    font-size: 2rem; color: #f6f1a0;
+}
